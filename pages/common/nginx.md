@@ -7,6 +7,10 @@
 
 `nginx`
 
+- Stop the server:
+
+`nginx -s stop`
+
 - Start server with a custom configuration file:
 
 `nginx -c {{configuration_file}}`
@@ -18,6 +22,10 @@
 - Test the configuration without affecting the running server:
 
 `nginx -t`
+
+- Test the configuration with an output of all the settings:
+
+`nginx -T`
 
 - Reload the configuration by sending a signal with no downtime:
 
